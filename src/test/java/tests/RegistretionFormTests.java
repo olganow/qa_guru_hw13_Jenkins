@@ -2,7 +2,6 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import ru.ya.olganow.RegistrationFormPage;
 
@@ -34,7 +33,7 @@ public class RegistretionFormTests {
 
     }
 
-    @Disabled
+
     @Test
     void successfulSubmitFormTest() {
         registrationFormPage
