@@ -113,7 +113,7 @@ public class RegistrationFormPage {
     }
 
     public RegistrationFormPage setCity(String city) {
-        cityInput.setValue(city).pressEnter();
+        cityInput.setValue(city).scrollTo().pressEnter();
 
         return this;
     }
@@ -121,7 +121,7 @@ public class RegistrationFormPage {
     public RegistrationFormPage clickSubmit() {
         submitButton.scrollIntoView(true).click();
 
-        return this;
+        return;
     }
 
     public RegistrationFormPage checkResultsTableVisible() {
