@@ -121,7 +121,7 @@ public class RegistrationFormPage {
     public RegistrationFormPage clickSubmit() {
         submitButton.scrollIntoView(true).click();
 
-        return;
+        return this;
     }
 
     public RegistrationFormPage checkResultsTableVisible() {
